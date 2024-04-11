@@ -52,3 +52,14 @@ After reaching the UI the first time you can login with username: admin and the 
 kubectl -n argo get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
 
 (You should delete the initial secret afterwards as suggested by the Getting Started Guide: https://argo-cd.readthedocs.io/en/stable/getting_started/#4-login-using-the-cli)
+
+
+---
+[11/4/2024]
+
+Remote Helm chart repo setup added
+
+remote: Permission to UQThesisENGG7817/helm-charts.git denied to github-actions[bot].
+fatal: unable to access 'https://github.com/UQThesisENGG7817/helm-charts/': The requested URL returned error: 403
+Refers --> https://github.com/ad-m/github-push-action/issues/96#issuecomment-1647904286
+Helm charts page: https://github.com/UQThesisENGG7817/helm-charts/tree/gh-pages
