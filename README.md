@@ -63,3 +63,29 @@ remote: Permission to UQThesisENGG7817/helm-charts.git denied to github-actions[
 fatal: unable to access 'https://github.com/UQThesisENGG7817/helm-charts/': The requested URL returned error: 403
 Refers --> https://github.com/ad-m/github-push-action/issues/96#issuecomment-1647904286
 Helm charts page: https://github.com/UQThesisENGG7817/helm-charts/tree/gh-pages
+
+[13/4/2024]
+
+Base Overlay folder structure for multi-env demo -> will only use prod
+Setup argocd helpers for rbac demo
+Setup argo-rollouts
+Bootstrap services added
+
+-> Demo pushing vault - self-hosted sercrets manager and metrics-server first
+
+Argo RBAC CM
+```   p, role:org-admin, applications, *, */*, allow
+      p, role:org-admin, clusters, get, *, allow
+      p, role:org-admin, repositories, get, *, allow
+      p, role:org-admin, repositories, create, *, allow
+      p, role:org-admin, repositories, update, *, allow
+      p, role:org-admin, repositories, delete, *, allow
+      p, role:org-admin, projects, get, *, allow
+      p, role:org-admin, projects, create, *, allow
+      p, role:org-admin, projects, update, *, allow
+      p, role:org-admin, projects, delete, *, allow
+      p, role:org-admin, logs, get, *, allow
+      p, role:org-admin, exec, create, */*, allow
+
+      g, UQThesisENGG7817:devops-team, role:org-admin
+```
