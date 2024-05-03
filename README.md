@@ -33,7 +33,6 @@ Documenting, diagrams, logs and architecture of the thesis - also acts as a Proo
 5. Trigger notifiaction field section
 ---
 1. Exploring ingress and domain option
-
 ---
 
 In order to access the server UI you have the following options:
@@ -89,3 +88,10 @@ Argo RBAC CM
 
       g, UQThesisENGG7817:devops-team, role:org-admin
 ```
+
+Vault init and unseal must be done manually - exec into
+
+
+[4/5/2024]
+Migrated to second cluster
+Documented it
