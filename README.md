@@ -95,3 +95,14 @@ Vault init and unseal must be done manually - exec into
 [4/5/2024]
 Migrated to second cluster
 Documented it
+"When troubleshooting or testing the deployment of your applications we encourage you to configure your ACME client to use our staging environment. Rate limits for our staging environment are significantly higher."
+SecretStore with Vault kv engine deployed
+ExternalSecret deploy
+
+[5/5/2024]
+Prometheus deployed: logging.pinnamon.com
+Robusta deployed - alert manager and notification sinking
+Alert manager deployed: alertmanager.pinnamon.com
+ACME 429 rate-limit problem
+Alert manager silent
+Nginx perhaps cannot be gitops (now) because we need to use UI to bootstrap App of Apps
