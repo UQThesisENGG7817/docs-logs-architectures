@@ -106,3 +106,9 @@ Alert manager deployed: alertmanager.pinnamon.com
 ACME 429 rate-limit problem
 Alert manager silent
 Nginx perhaps cannot be gitops (now) because we need to use UI to bootstrap App of Apps
+
+
+...
+
+[16/08/2024]
+Deploy LGTMA Observability Stack
