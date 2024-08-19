@@ -112,3 +112,6 @@ Nginx perhaps cannot be gitops (now) because we need to use UI to bootstrap App 
 
 [16/08/2024]
 Deploy LGTMA Observability Stack
+
+[19/08/2024]
+kubectl apply -f https://github.com/open-telemetry/opentelemetry-operator/releases/latest/download/opentelemetry-operator.yaml
