@@ -115,3 +115,6 @@ Deploy LGTMA Observability Stack
 
 [19/08/2024]
 kubectl apply -f https://github.com/open-telemetry/opentelemetry-operator/releases/latest/download/opentelemetry-operator.yaml
+
+[24/08/2024]
+Added trivy operator, trivy policy reporter, kyverno, kyverno reporter helm charts
