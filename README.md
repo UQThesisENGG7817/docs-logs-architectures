@@ -121,3 +121,7 @@ Added trivy operator, trivy policy reporter, kyverno, kyverno reporter helm char
 
 [25/08/2024]
 Grafana Dashboard Terraform Module
+
+[26/08/2024]
+Expose ArgoCD metrics service monitor
+IaC JSON dashboard
