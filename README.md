@@ -118,3 +118,6 @@ kubectl apply -f https://github.com/open-telemetry/opentelemetry-operator/releas
 
 [24/08/2024]
 Added trivy operator, trivy policy reporter, kyverno, kyverno reporter helm charts
+
+[25/08/2024]
+Grafana Dashboard Terraform Module
